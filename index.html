@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+        <meta name="keywords" content="HTML, CSS, Responsive web design, Responsive Web site">
+        <meta name="description" content="SmileyAid - Your Trusted Web Design Agency. Crafting beautiful, responsive, and user-friendly websites that drive success for your business.">
+        <meta name="author" content="DaJuan Smiley">
+        <title>Responsive SIte</title>
+        <style>
+            body {
+                background-color: gray;
+            }
+            @media (max-width: 450px) {
+                body {
+                    background-color: rgb(161, 10, 10);
+                    font-size: 1vw;
+                }
+                div {
+                    height: auto;
+                    width: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 40%;
+                    bottom: 40%;
+                }
+                .textchange span {
+                    display: none;
+                }
+                .textchange::after {
+                    height: auto;
+                    width: 250px;
+                    content: "You must be on a phone, go to my...";
+                    color: white;
+                    font-size: 3.5em;
+                    
+                }
+                a {
+                    color: rgb(212, 255, 0);
+                    font-size: 3.5em;
+                }
+            }
+            @media (min-width: 451px) and (max-width: 1500px) {
+                body {
+                    background-color: green;
+                    font-size: 1vw;
+                }
+                div {
+                    height: auto;
+                    width: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 40%;
+                    bottom: 40%;
+                }
+                .textchange span {
+                    display: none;
+                }
+                .textchange::after {
+                    height: auto;
+                    width: 250px;
+                    content: "Oh you have a tablet? You should go to my ...";
+                    color: white;
+                    font-size: 2.3em;
+                }
+                a {
+                    color: rgb(229, 255, 0);
+                    font-size: 2.3em;
+                }
+            }
+            @media (min-width: 1501px) and (max-width: 2000px) {
+                body {
+                    background-color: rgb(15, 171, 214);
+                    font-size: 1vw;
+                }
+                div {
+                    height: auto;
+                    width: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 40%;
+                    bottom: 40%;
+                }
+                .textchange span {
+                    display: none;
+                }
+                .textchange::after {
+                    height: auto;
+                    width: 250px;
+                    content: "Ah a laptop, you should definetly go to my ...";
+                    color: white;
+                    font-size: 1.8em;
+                }
+                a {
+                    color: rgb(242, 255, 0);
+                    font-size: 1.8em;
+                }
+            }
+            @media (min-width: 2001px) and (max-width: 4500px) {
+                body {
+                    background-color: rgb(132, 5, 223);
+                    font-size: 1vw;
+                }
+                div {
+                    height: auto;
+                    width: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 40%;
+                    bottom: 40%;
+                    font-size: 20px;
+                }
+                .textchange span {
+                    display: none;
+                }
+                .textchange::after {
+                    height: auto;
+                    width: 250px;
+                    content: "Ok big ballin with your desktop, you should definetly go to my ...";
+                    color: white;
+                    font-size: 1.5em;
+                }
+                a {
+                    color: rgb(242, 255, 1);
+                    font-size: 1.5em;
+                }
+            } 
+            @media (min-width: 4501px) {
+                body {
+                    background-color: rgb(128, 109, 0);
+                }
+                div {
+                    height: auto;
+                    width: auto;
+                    display: inline-block;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 40%;
+                    bottom: 40%;
+                    font-size: 20px;
+                }
+                .textchange span {
+                    display: none;
+                }
+                .textchange::after {
+                    height: auto;
+                    width: 250px;
+                    content: "Damn do you need a screen this big!?! You definetly need go to my ...";
+                    color: white;
+                    font-size: 1vw;
+                }
+                a {
+                    color: rgb(242, 255, 1);
+                    font-size: 1vw;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <p class="textchange"><span>You must be on a phone</span></p>
+            <a href="../Responsive_Site/Design_agency/index.html">Responsive Website</a>
+        </div>
+        
+    </body>
+</html>
